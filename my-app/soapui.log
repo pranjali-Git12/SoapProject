@@ -1,0 +1,48 @@
+2021-07-28 10:33:54,743 WARN  [SoapUI] Missing folder [C:\Users\PranjaliIlame\Desktop\SoapProject\my-app\ext] for external libraries
+2021-07-28 10:33:54,940 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\PranjaliIlame\soapui-settings.xml]
+2021-07-28 10:33:56,298 INFO  [WsdlProject] Loaded project from [file:/C:/Users/PranjaliIlame/Desktop/SoapProject/my-app/ShoppingService-soapui-project.xml]
+2021-07-28 10:33:56,881 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [ShoppingService]
+2021-07-28 10:33:56,882 INFO  [SoapUITestCaseRunner] Running Project [ShoppingService], runType = SEQUENTIAL
+2021-07-28 10:33:56,905 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [find TestCase]
+2021-07-28 10:33:56,921 INFO  [SoapUITestCaseRunner] running step [find]
+2021-07-28 10:33:57,133 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [find TestCase], time taken: 204ms, status: FINISHED
+2021-07-28 10:33:57,142 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [login TestCase]
+2021-07-28 10:33:57,143 INFO  [SoapUITestCaseRunner] running step [login]
+2021-07-28 10:33:57,209 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status VALID
+2021-07-28 10:33:57,210 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [login TestCase], time taken: 64ms, status: FINISHED
+2021-07-28 10:33:57,217 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [logout TestCase]
+2021-07-28 10:33:57,218 INFO  [SoapUITestCaseRunner] running step [logout]
+2021-07-28 10:33:57,262 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [logout TestCase], time taken: 43ms, status: FINISHED
+2021-07-28 10:33:57,276 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [purchase TestCase]
+2021-07-28 10:33:57,283 INFO  [SoapUITestCaseRunner] running step [purchase]
+2021-07-28 10:33:57,395 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [purchase TestCase], time taken: 112ms, status: FINISHED
+2021-07-28 10:33:57,422 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Traditional Login and Logout]
+2021-07-28 10:33:57,430 INFO  [SoapUITestCaseRunner] running step [Username and Password properties]
+2021-07-28 10:33:57,517 INFO  [SoapUITestCaseRunner] running step [username and password transfer]
+2021-07-28 10:33:57,841 INFO  [SoapUITestCaseRunner] running step [Call Login Service]
+2021-07-28 10:33:58,104 INFO  [SchemaUtils] Added default schema from file:/C:/Users/PranjaliIlame/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/xop.xsd with targetNamespace http://www.w3.org/2004/08/xop/include
+2021-07-28 10:33:58,142 INFO  [SchemaUtils] Added default schema from file:/C:/Users/PranjaliIlame/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/XMLSchema.xsd with targetNamespace http://www.w3.org/2001/XMLSchema
+2021-07-28 10:33:58,153 INFO  [SchemaUtils] Added default schema from file:/C:/Users/PranjaliIlame/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/xml.xsd with targetNamespace http://www.w3.org/XML/1998/namespace
+2021-07-28 10:33:58,156 INFO  [SchemaUtils] Added default schema from file:/C:/Users/PranjaliIlame/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/swaref.xsd with targetNamespace http://ws-i.org/profiles/basic/1.1/xsd
+2021-07-28 10:33:58,168 INFO  [SchemaUtils] Added default schema from file:/C:/Users/PranjaliIlame/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/xmime200505.xsd with targetNamespace http://www.w3.org/2005/05/xmlmime
+2021-07-28 10:33:58,173 INFO  [SchemaUtils] Added default schema from file:/C:/Users/PranjaliIlame/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/xmime200411.xsd with targetNamespace http://www.w3.org/2004/11/xmlmime
+2021-07-28 10:33:58,185 INFO  [SchemaUtils] Added default schema from file:/C:/Users/PranjaliIlame/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope.xsd with targetNamespace http://schemas.xmlsoap.org/soap/envelope/
+2021-07-28 10:33:58,192 INFO  [SchemaUtils] Added default schema from file:/C:/Users/PranjaliIlame/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding.xsd with targetNamespace http://schemas.xmlsoap.org/soap/encoding/
+2021-07-28 10:33:58,206 INFO  [SchemaUtils] Added default schema from file:/C:/Users/PranjaliIlame/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/soapEnvelope12.xsd with targetNamespace http://www.w3.org/2003/05/soap-envelope
+2021-07-28 10:33:58,217 INFO  [SchemaUtils] Added default schema from file:/C:/Users/PranjaliIlame/.m2/repository/com/smartbear/soapui/soapui/5.0.0/soapui-5.0.0.jar!/com/eviware/soapui/resources/xsds/soapEncoding12.xsd with targetNamespace http://www.w3.org/2003/05/soap-encoding
+2021-07-28 10:33:58,223 INFO  [SchemaUtils] Loading schema types from [file:\C:\Users\PranjaliIlame\Downloads\NewzipResources\Resources\ShoppingService.wsdl]
+2021-07-28 10:33:58,227 INFO  [SchemaUtils] Getting schema file:\C:\Users\PranjaliIlame\Downloads\NewzipResources\Resources\ShoppingService.wsdl
+2021-07-28 10:33:58,253 INFO  [SchemaUtils] Getting schema file:\C:\Users\PranjaliIlame\Downloads\NewzipResources\Resources\ShoppingService.xsd
+2021-07-28 10:33:58,524 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-07-28 10:33:58,525 INFO  [SoapUITestCaseRunner] Assertion [Schema Compliance] has status VALID
+2021-07-28 10:33:58,531 INFO  [SoapUITestCaseRunner] Assertion [Not SOAP Fault] has status FAILED
+2021-07-28 10:33:58,532 ERROR [SoapUITestCaseRunner] ASSERTION FAILED -> Response is a SOAP Fault
+2021-07-28 10:33:58,533 ERROR [SoapUITestCaseRunner] Call Login Service failed, exporting to [C:\Users\PranjaliIlame\Desktop\SoapProject\my-app\target/surefire-reports\Shopping_service_functional_Testing-Traditional_Login_and_Logout-Call_Login_Service-0-FAILED.txt]
+2021-07-28 10:33:58,544 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Traditional Login and Logout], time taken: 1088ms, status: FAILED
+2021-07-28 10:33:58,552 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Script Based Execution]
+2021-07-28 10:33:58,552 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Script Based Execution], time taken: 0ms, status: FINISHED
+2021-07-28 10:33:58,558 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Database testing]
+2021-07-28 10:33:58,559 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Database testing], time taken: 0ms, status: FINISHED
+2021-07-28 10:33:58,566 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [System Test Execution]
+2021-07-28 10:33:58,569 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [System Test Execution], time taken: 0ms, status: FINISHED
+2021-07-28 10:33:58,577 INFO  [SoapUITestCaseRunner] Project [ShoppingService] finished with status [FAILED] in 1688ms

@@ -1,0 +1,10 @@
+Status: FAILED
+Time Taken: 154
+Size: 0
+Timestamp: Wed Jul 28 10:06:55 IST 2021
+TestStep: Execute Property Expansion Login and Logout
+Error:groovy.lang.MissingPropertyException: No such property: setPropertyValue for class: com.eviware.soapui.impl.wsdl.teststeps.WsdlPropertiesTestStep
+
+----------------- Messages ------------------------------
+groovy.lang.MissingPropertyException: No such property: setPropertyValue for class: com.eviware.soapui.impl.wsdl.teststeps.WsdlPropertiesTestStep
+error at line: 5

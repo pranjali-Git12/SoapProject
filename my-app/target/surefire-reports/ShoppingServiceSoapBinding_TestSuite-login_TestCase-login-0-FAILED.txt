@@ -1,0 +1,64 @@
+Status: FAILED
+Time Taken: 290
+Size: 637
+Timestamp: Wed Jul 28 10:24:48 IST 2021
+TestStep: login
+
+----------------- Messages ------------------------------
+[Not SOAP Fault] Response is a SOAP Fault
+
+----------------- Properties ------------------------------
+Endpoint: http://DESKTOP-0OEJQ4S:8088/mockShoppingServiceSoapBinding
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : "http://expertz.me/service/eCommerce/ShoppingService/1.0/login"
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : DESKTOP-0OEJQ4S:8088
+Accept-Encoding : gzip,deflate
+Content-Length : 373
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://expertz.me/data/eCommerce/ShoppingService/1.0">
+   \r
+   <soapenv:Header/>
+   \r
+   <soapenv:Body>
+      \r
+      <ns:loginRequest>
+         \r
+         <ns:username>pranjali</ns:username>
+         \r
+         <ns:password>pranjali</ns:password>
+         \r
+      </ns:loginRequest>
+      \r
+   </soapenv:Body>
+   \r
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Jetty(6.1.26)
+Content-Encoding : gzip
+#status# : HTTP/1.1 200 OK
+Content-Length : 344
+Content-Type : text/xml; charset=utf-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://expertz.me/data/eCommerce/ShoppingService/1.0">
+   <soapenv:Body>
+      <soapenv:Fault>
+         <faultcode>APP001</faultcode>
+         <faultstring xml:lang="en-US">Already Logged In</faultstring>
+         <!--Optional:-->
+         <faultactor>Auth System</faultactor>
+         <!--Optional:-->
+         <detail>
+            <ns:faultMessage>User is already logged in. If you want to login as another user logout first</ns:faultMessage>
+            <!--You may enter ANY elements at this point-->
+         </detail>
+      </soapenv:Fault>
+   </soapenv:Body>
+</soapenv:Envelope>
